@@ -13,22 +13,22 @@ set(BUILD_TESTING OFF)
 include(FetchContent)
 FetchContent_Declare(
   gflags
-  GIT_REPOSITORY https://github.com/gflags/gflags.git
+  GIT_REPOSITORY git@github.com:gflags/gflags.git
   GIT_TAG        v2.2.2
 )
 FetchContent_Declare(
   glog
-  GIT_REPOSITORY https://github.com/google/glog.git
+  GIT_REPOSITORY git@github.com:google/glog.git
   GIT_TAG        v0.6.0
 )
 FetchContent_Declare(
     googletest
-    GIT_REPOSITORY https://github.com/google/googletest.git
+    GIT_REPOSITORY git@github.com:google/googletest.git
     GIT_TAG        v1.13.0
 )
 FetchContent_Declare(
   grpc
-  GIT_REPOSITORY https://github.com/grpc/grpc
+  GIT_REPOSITORY git@github.com:grpc/grpc
   GIT_TAG        v1.48.3
 )
 set(FETCHCONTENT_QUIET OFF)
